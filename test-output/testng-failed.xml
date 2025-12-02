@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.Login_Test">
+        <methods>
+          <include name="click_submit"/>
+          <include name="set_up"/>
+          <include name="set_up_close"/>
+          <include name="enter_password"/>
+          <include name="enter_username"/>
+        </methods>
+      </class> <!-- testCases.Login_Test -->
+      <class name="testCases.Home_Test">
+        <methods>
+          <include name="click_product"/>
+          <include name="set_up"/>
+          <include name="set_up_close"/>
+          <include name="click_cart"/>
+        </methods>
+      </class> <!-- testCases.Home_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
