@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "Checking out code from Git"
-                git branch: 'main', url: 'https://github.com/anmol22saini01-hub/test_1.git'
+                git branch: 'master', url: 'https://github.com/anmol22saini01-hub/test_1.git'
             }
         }
 
